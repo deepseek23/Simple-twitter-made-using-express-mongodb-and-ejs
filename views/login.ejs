@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-full min-h-screen bg-zinc-900 text-white p-10 inline-block">
+        <a class="text-2xl text-blue-600" href="/">Register</a>
+        <h1 class="text-3xl mb-5">Login your Account</h1>
+        <form action="/login" method="post">
+            <input class="px-3 py-2 outline-none block mt-2 bg-transparent border-2 border-zinc-800 rounded-md" type="email" placeholder="email" name="email" >
+            <input class="px-3 py-2 outline-none block mt-2 bg-transparent border-2 border-zinc-800 rounded-md" type="password" placeholder="password" name="password" >
+            <input class="bg-blue-600 mt-2 px-5 py-2 rounded-md" type="submit" value="Login account">
+        </form>
+    </div>
+</body>
+</html>     

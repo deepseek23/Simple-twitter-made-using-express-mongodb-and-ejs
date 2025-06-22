@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-full min-h-screen bg-zinc-900 text-white p-10 ">
+        <h1 class="text-3xl mb-5">Create a account or <a class="text-3xl text-blue-600" href="/login">Login</a></h1>
+        <form class="flex justify-center inline-block" action="/register" method="post">
+            <input class="px-3 py-2  bg-transparent block mt-2  broder-2 border-blue-600 rounded-md" type="text" placeholder="name" name="name" >
+            <input class="px-3 py-2  bg-transparent block mt-2  broder-2 border-blue-600 rounded-md" type="text" placeholder="username" name="username" >
+            <input class="px-3 py-2  bg-transparent block mt-2  broder-2 border-blue-600 rounded-md" type="email" placeholder="email" name="email" >
+            <input class="px-3 py-2  bg-transparent block mt-2  broder-2 border-blue-600 rounded-md" type="number" placeholder="age" name="age" >
+            <input class="px-3 py-2  bg-transparent block mt-2  broder-2 border-blue-600 rounded-md" type="password" placeholder="password" name="password" >
+            <input class="bg-blue-600 px-5 py-2 rounded-md" type="submit" value="create account">
+        </form>
+    </div>
+</body>
+</html>
+
+
